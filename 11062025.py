@@ -152,3 +152,64 @@ result_add = obj.add(10, 5)  # Output: 15
 result_subtract = obj.subtract(10, 5)  # Output: 5
 print(f"Addition Result: {result_add}")  # Output: Addition Result: 15
 print(f"Subtraction Result: {result_subtract}")  # Output: Subtraction Result: 5"""
+
+
+
+"""class Student:
+    def __init__self():
+        print("Default constructor called")
+    def __init__(self,name,marks,age):
+        self.name = name
+        self.marks = marks
+        self.age = age
+        print("Parameterized constructor called")
+    def show_info(self):
+        print(f"Name: {self.name}\nMarks: {self.marks}\nAge: {self.age}")
+    def __del__(self):
+        print("Destructor called")
+s2=Student("Dhruvika", 85, 20)  # Object instantiation with parameterized constructor
+s2.show_info()  # Output: Name: Dhruvika, Marks: 85, Age: 20
+s3=Student("Aarav", 90, 22)  # Another object instantiation with parameterized constructor
+s3.show_info()  # Output: Name: Aarav, Marks: 90, Age: 22
+del s2  # Destructor will be called for s2"""
+
+
+# Example - Addition Class with Methods to Calculate and Display Sum
+"""class Addition:
+    first = 0
+    second = 0
+    answer = 0
+    def __init__(self, f, s):
+        self.first = f
+        self.second = s
+    def display(self):
+        print("First number is: ", self.first)
+        print("Second number is: ", self.second)
+        print("Addition is: ", self.first + self.second)
+    def calculate(self):
+        self.answer = self.first + self.second
+obj = Addition(1000,2000)  # Object instantiation
+obj.calculate()  # Calculate the addition
+obj.display()  # Display the results"""
+
+
+# Example - Person Class with Instance Variables and Attribute Manipulation
+"""class person:
+    def __init__(self, name, age):
+        self.name = name  # Instance variable
+        self.age = age    # Instance variable
+person = person("Alice", 30)  # Object instantiation
+# use getattr attribute to get the value of attribute
+name = getattr(person, 'name')  # Accessing instance variable using getattr
+print(f"Name: {name}")  # Output: Name: Alice
+# use setattr attribute to set the value of attribute
+setattr(person, 'age', 31)  # Modifying instance variable using setattr
+print(f"Updated Age: {person.age}")  # Output: Updated Age: 31
+# use hasattr attribute to check if the instance variable exists
+has_name = hasattr(person, 'name')  # Checking if 'name' attribute exists
+print(f"Has 'name' attribute: {hasattr(person, 'name')}")  # Output: Has 'name' attribute: True
+# use delattr attribute to delete the instance variable
+delattr(person, 'age')  # Deleting 'age' attribute using delattr
+print(f"Has 'age' attribute after deletion: {hasattr(person, 'age')}")  # Output: Has 'age' attribute after deletion: False"""
+
+
