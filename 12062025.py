@@ -164,3 +164,40 @@ f3 = f1 + f2
 print(f3)  # Output: 5/6"""
 
 
+"""class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+def print_value(self):
+    print(f"The Value is : {obj.value}")
+obj = MyClass(10)
+print_value(obj)  # Output: The Value is : 10"""
+
+
+
+# Define a class Person and another class Greeting. The greetng class should have a method that takes a person object and prints personalized greeting message.
+"""class Person:
+    def __init__(self, name):
+        self.name = name
+    def __repr__(self):
+        return f"Person({self.name})"
+class Greeting:
+    def greet(self, person):
+        print(f"Hello, {person.name}! Welcome to our program.")
+# Example usage
+person = Person("Garvit Rana")
+greeting = Greeting()
+message = greeting.greet(person)  # Output: Hello, Garvit Rana! Welcome to our program.
+person = Person("Ishanvi Rajput")
+greeting = Greeting()
+message = greeting.greet(person)  # Output: Hello, Ishanvi Rajput! Welcome to our program."""
+
+
+
+"""class MyClass:
+    def __init__(self, value):
+        self.value = value
+def create_object(value):
+    return MyClass(value)
+obj = create_object(10)
+print(f"The Value is : {obj.value}")  # Output: The Value is : 10"""
