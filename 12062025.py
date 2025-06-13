@@ -205,7 +205,7 @@ print(f"The Value is : {obj.value}")  # Output: The Value is : 10"""
 
 
 # Define a class rectangle that reresent a rectangle with width and height. The class should have a method that takes another retangle object and returns a new rectangle object that represents the union of the two rectangles.
-class Rectangle:
+"""class Rectangle:
     def __init__(slef,width,height):
         slef.width = width
         slef.height = height
@@ -222,4 +222,8 @@ class Rectangle:
 rect1 = Rectangle(4, 5)  # Rectangle with width 4 and height 5
 rect2 = Rectangle(3, 6)  # Rectangle with width 3 and height 6
 rect3 = rect1.combine(rect2)  # Combine the two rectangles
-print(rect3)  # Output: Rectangle(width=4, height=9.5)
+print(rect3)  # Output: Rectangle(width=4, height=9.5)"""
+
+
+
+
