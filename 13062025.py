@@ -81,3 +81,26 @@ g = Grandson()
 g.show_grandson()
 g.show_son()
 g.show_father()"""
+
+
+"""class Student:
+    _name = None
+    _roll = None
+    _branch = None
+    def __init__(self,name,roll,branch):
+        self._name = name
+        self._roll = roll
+        self._branch = branch
+    def _displayinfo(self):
+        print("Roll No:",self._roll)
+        print("Branch:",self._branch)
+class New(Student):
+    def __init__(self,name,roll,branch):
+        Student.__init__(self,name,roll,branch)
+    def displaydetails(self):
+        print("Name:",self._name)
+        self._displayinfo()
+obj = New("Aditya","TVMS4351","Data Science")
+obj.displaydetails()"""
+
+
