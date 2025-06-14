@@ -104,3 +104,69 @@ obj = New("Aditya","TVMS4351","Data Science")
 obj.displaydetails()"""
 
 
+# Example of duck typing in Python
+"""class Duck:
+    def quack(self):
+        print("Quack! Quack!")
+class Person:
+    def quack(self):
+        print("I am quacking like a duck!)")
+duck = Duck()
+person = Person()
+duck.quack()
+person.quack()"""
+
+
+
+"""class Bird:
+    def fly(self):
+        print("I can fly")
+class Airplane:
+    def fly(self):
+        print("Airplane flies in sky with fuel")
+class Fish:
+    def swim(self):
+        print("Fish swims in sea!")
+for obj in Bird(), Airplane(), Fish():
+    obj.fly()"""
+
+
+
+"""class MyClass:
+    def sum(self,a=0,b=0,c=0):
+        s=0
+        if a!=0 and b!=0 and c!=0:
+            s=a+b+c
+        elif a!=0 and b!=0:
+            s=a+b
+        elif a!=0:
+            s=a
+        else:
+            s=0
+        return s
+m = MyClass()
+print(m.sum(1,2,3))"""
+
+
+
+class Vector:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+    def __add__(self,other):
+        return Vector(self.x + other.x, self.y + other.y)
+    def __sub__(self,other):
+        return Vector(self.x - other.x, self.y - other.y)
+    def __mul__(self,scalar):
+        return Vector(self.x * scalar, self.y * scalar)
+    def __str__(self):
+        return f"Vector({self.x}, {self.y})"
+v1 = Vector(2, 3)
+v2 = Vector(4, 5)
+v3 = v1 + v2
+v4 = v1 - v2
+v5 = v1 * 3
+print(v3)  # Output: Vector(6, 8)
+print(v4)  # Output: Vector(-2, -2)
+print(v5)  # Output: Vector(6, 9)
+print(v1)  # Output: Vector(2, 3)
