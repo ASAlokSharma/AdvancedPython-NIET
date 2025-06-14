@@ -192,3 +192,15 @@ cat.speak()"""
 
 
 
+"""class Shape:
+    def __init__(self):
+        self.colour = (0,0,0)
+class Rectangle(Shape):
+    def area(self,w,h):
+        self.w=w
+        self.h=h
+        return self.w*self.h
+    def perimeter(self,w,h):
+        return 2*(w+h)"""
+
+
