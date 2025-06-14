@@ -149,7 +149,7 @@ print(m.sum(1,2,3))"""
 
 
 
-class Vector:
+"""class Vector:
     def __init__(self,x,y):
         self.x = x
         self.y = y
@@ -169,4 +169,26 @@ v5 = v1 * 3
 print(v3)  # Output: Vector(6, 8)
 print(v4)  # Output: Vector(-2, -2)
 print(v5)  # Output: Vector(6, 9)
-print(v1)  # Output: Vector(2, 3)
+print(v1)  # Output: Vector(2, 3)"""
+
+
+
+"""class Animal:
+    def speak(self):
+        print("Animal mkes a sound")
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+class Cat(Animal):
+    def speak(Animal):
+        print("Cat meows")
+
+animal = Animal()
+cat = Cat()
+dog = Dog()
+animal.speak()
+dog.speak()
+cat.speak()"""
+
+
+
